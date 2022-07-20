@@ -33,9 +33,16 @@
             border-radius: 5px;
         }
 
-        .info h4 {
+        .info h2 {
             margin: 0 0 5px;
-            color: #777;
+            font-size: larger;
+            font-weight: bolder;
+            color: black;
+        }
+
+        .info h3 {
+            font-weight: 900;
+            color: yellow;
         }
         .text-labels {
             font-size: 50px;
@@ -51,27 +58,43 @@
         <div id="map"></div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.8.0/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
     <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
     <script src="us-states-hexbin.js"></script>
     <script>
-        let width = 800, height = 300;
+        //console.log(USstates_hexbin_datapoints)
 
-        // The svg
-        const svg = d3.select("svg").attr("viewBox", "0 0 " + width + " " + height);
+        // Translate Polygon
+        function poly(x) {
+            var feat = x
+            // var poly = turf.polygon([[[0,29],[3.5,29],[2.5,32],[0,29]]]);
+            var translatedPoly = turf.transformTranslate(x, 450, 90);
+
+            // for (var i = 0; i < feat.length; i++) {
+            //     var coord = turf.polygon(feat[i].geometry.coordinates);
+            //     turf.transformTranslate(coord, 1, 90);
+            // }
+            return translatedPoly
+        }
+
+        // Load Mapbox Access Token
+        var mapboxAccessToken = "pk.eyJ1IjoiMTkwMTg0OS1uYXRoYW5pZWwiLCJhIjoiY2w1c3hxbXA2MDBpZzNpcGQ5dzV1ZmM2YyJ9.eqDDBQoZwr8WrrlG8sTdww";
 
         // Declare map backdrop
         var map = L.map('map').setView([35.8, -96.9], 4);
 
-        var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(map);
+        // var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        //     maxZoom: 19,
+        //     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        // }).addTo(map);
 
-        // // Map and projection
-        // const projection = d3.geoMercator()
-        //     .scale(350) // This is the zoom
-        //     .translate([850, 440]); // You have to play with these values to center your map
+        var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
+            id: 'mapbox/light-v9',
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            tileSize: 512,
+            zoomOffset: -1,
+            maxZoom: 19
+        }).addTo(map);
 
         // Color Scale
         function getColorScale(d) {
@@ -127,14 +150,9 @@
         }
 
         // Generate map
-        geojson = L.geoJson(USstates_hexbin_datapoints, {
+        geojson = L.geoJson(poly(USstates_hexbin_datapoints), {
             style: style,
             onEachFeature: onEachFeature,
-            icon: new L.DivIcon({
-                className: 'my-div-icon',
-                html: '<img class="my-div-image" src="http://png-3.vector.me/files/images/4/0/402272/aiga_air_transportation_bg_thumb"/>' +
-                    '<span class="my-div-span">RAF Banff Airfield</span>'
-            })
         }).addTo(map);
 
         // Adding Tooltip
@@ -148,24 +166,12 @@
 
         // method that we will use to update the control based on feature properties passed
         info.update = function (props) {
-            this._div.innerHTML = '<h4>Covid 19 Statistics - Adjusted for Population</h4>' + (props ?
-                '<b>' + props.google_name + '</b><br />' + props.cases + ' Avg. Daily New Cases per 100k'
+            this._div.innerHTML = '<h2>Covid 19 Statistics - Adjusted for Population</h2>' + (props ?
+                '<b>' + props.google_name + '</b><br/>' + props.cases
                 : 'Hover over a state');
         };
 
         info.addTo(map);
-
-        // Adding State Marker
-        
-
-
-
-
-
-
-
-
-        
 
         // Add Legend
         var legend = L.control({ position: 'bottomright' });

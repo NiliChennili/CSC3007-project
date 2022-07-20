@@ -2207,7 +2207,7 @@ var USstates_hexbin_datapoints = {
             "properties": {
                 "cartodb_id": 296,
                 "label": "N.D.",
-                "cases": 40.4,
+                "cases": 33,
                 "iso3166_2": "ND",
                 "google_name": "North Dakota (United States)"
             }
@@ -2252,7 +2252,7 @@ var USstates_hexbin_datapoints = {
             "properties": {
                 "cartodb_id": 331,
                 "label": "A.K.",
-                "cases": null,
+                "cases": 48,
                 "iso3166_2": "AK",
                 "google_name": "Alaska (United States)"
             }
@@ -2297,7 +2297,7 @@ var USstates_hexbin_datapoints = {
             "properties": {
                 "cartodb_id": 273,
                 "label": "Conn.",
-                "cases": 57.5,
+                "cases": 21,
                 "iso3166_2": "CT",
                 "google_name": "Connecticut (United States)"
             }
