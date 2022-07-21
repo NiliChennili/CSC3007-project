@@ -100,7 +100,7 @@ function Milestone2() {
                   hoverable
                   bordered
                   title="New Case vs New Death"
-                  style={{ width: 1065, height: 500 }}
+                  style={{ width: 1065, height: 450 }}
                   className="detail-time-graph"
                 >
                   < Timegraph/>
