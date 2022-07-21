@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Mix, G2 } from '@ant-design/plots';
 
-const Total_case = () => {
+const Total_death = () => {
     const [data, setData] = useState([]); //using useState to hook to store the data and render it on the DOM
 
     useEffect(() => {
@@ -10,7 +10,7 @@ const Total_case = () => {
     }, []);
   
     const getData = () => {
-      fetch("../Dataset/total_case.json", {
+      fetch("../Dataset/total_death.json", {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
@@ -146,4 +146,4 @@ const Total_case = () => {
   return <Mix {...config} />;
 };
 
-export default Total_case;
+export default Total_death;
