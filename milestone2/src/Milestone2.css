@@ -1,11 +1,14 @@
 .card-cases .ant-card-head-title {
-    color: rgb(240 232 232 / 85%);
+    color: rgb(240 232 232 / 100%);
+    font-weight: bolder;
 }
 .card-death .ant-card-head-title {
-    color: rgb(240 232 232 / 85%);
+    color: rgb(240 232 232 / 100%);
+    font-weight: bolder;
 }
 .card-vaccine .ant-card-head-title {
-    color: rgb(240 232 232 / 85%);
+    color: rgb(240 232 232 / 100%);
+    font-weight: bolder;
 }
 .detail-time-graph .ant-card-head-title{
     color: rgba(16, 14, 14, 0.85);

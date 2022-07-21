@@ -16,7 +16,7 @@ function Cards() {
               path='/milestone1'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='images/hexbin-img.png'
               text='Based on the Visualizations picked in milestone 1, we picked and implemented a solution for our visualization.'
               label='Milestone 2'
               path='/milestone2'

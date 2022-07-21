@@ -46,14 +46,14 @@ function Milestone2() {
                   headerBordered
                   hoverable
                   bordered
-                  style={{ width: 350, height: 180, color:"white" ,background: "#191932" }}
+                  style={{ width: 350, height: 180, color:"white" ,background: "#74a9cf",opacity: 0.8 }}
                   title = "July 2022 Cases"
                   className="card-cases"
                 
                 >
                   
  
-                  <p style={{ color: "#fb6a4a", textAlign: "center",fontSize:30}}>
+                  <p style={{ color: "#d73027", textAlign: "center",fontSize:30,fontWeight:"bolder"}}>
                   191455
                   </p>
                 </Card>
@@ -63,7 +63,7 @@ function Milestone2() {
                   headerBordered
                   hoverable
                   bordered
-                  style={{ width: 350, height: 180,color:"white" ,background: "#191932" }}
+                  style={{ width: 350, height: 180,color:"white" ,background: "#74a9cf",opacity: 0.8}}
                   title = "July 2022 Death"
                   className="card-death"
                   
@@ -71,7 +71,7 @@ function Milestone2() {
                 >
                   
                  
-                  <p style={{ color: "white", textAlign: "center", fontSize:30}}>
+                  <p style={{ color: "white", textAlign: "center", fontSize:30, fontWeight:"bolder"}}>
                  532
                   </p>
                 </Card>
@@ -80,13 +80,13 @@ function Milestone2() {
                   headerBordered
                   hoverable
                   bordered
-                  style={{ width: 350, height: 180,color:"white" ,background: "#191932"}}
+                  style={{ width: 350, height: 180,color:"white" ,background: "#74a9cf",opacity: 0.8}}
                   title = "July 2022 Vaccine Doses Administered"
                   className="card-vaccine"
                 >
                   
                  
-                  <p style={{ color: "#66c2a4", textAlign: "center",fontSize:30}}>
+                  <p style={{ color: "#005a32", textAlign: "center",fontSize:30,fontWeight:"bolder"}}>
                   191455
                   </p>
                 </Card>
