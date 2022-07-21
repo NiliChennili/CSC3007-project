@@ -16,7 +16,7 @@ function M1Body() {
       <PageContainer>
         <div
           style={{
-            height: "120vh",
+            height: "240vh",
           }}
         >
           <div style={divStyle}>
@@ -78,7 +78,6 @@ function M1Body() {
                 
                 </Card>
               </div>
-
               <div className="site-card-border-less-wrapper">
                 <Card
                   title=" Why (Task) - 'User Intent to Use Visualization Tools'"
@@ -101,7 +100,6 @@ function M1Body() {
                     </li>
                 </Card>
               </div>
-
               <div className="site-card-border-less-wrapper">
                 <Card
                   title="  How (Idiom) - 'How the visualization idioms are constructed'"
@@ -128,7 +126,6 @@ function M1Body() {
                     </dl>
                 </Card>
               </div>
-
               <div style={divStyle}>
                 <Space direction="horizontal">
                   <Card
@@ -175,11 +172,14 @@ function M1Body() {
                   </Card>
                 </Space>
               </div>
+            </Space>
+          </div>
 
-            {/* start of visualisation #2 */}
-            <div style={divStyle}>
-              <h2 class="tm-section-title tm-color-primary mb-3">Visualization 2: Internet Hacking Attack Attribution Map</h2>
-            </div>
+          {/* start of visualisation #2 */}
+          <h2 class="tm-section-title tm-color-primary mb-3">Visualization 2: Internet Hacking Attack Attribution Map</h2>
+          <div style={divStyle}>
+            <Space direction="vertical">
+            
             <div style={divStyle}>
               <Space direction="horizontal">
                 <Card
@@ -196,7 +196,8 @@ function M1Body() {
                 </li>
                 </Card>
               </Space>
-              <div className="site-card-border-less-wrapper">
+            </div>
+            <div className="site-card-border-less-wrapper">
                 <Card
                   title="  What (Data) - 'What Data the User Sees'"
                   style={{width: 810,}}>
@@ -220,49 +221,45 @@ function M1Body() {
                   Users may see the country name while hovering over it on the map but cannot select it to view more details or zoom in or out on the map.
                   </li>
                 </Card>
-              </div>
-
-              <div className="site-card-border-less-wrapper">
-                <Card
-                  title=" Why (Task) - 'User Intent to Use Visualization Tools'"
-                  style={{width: 810,}}>
-                  <li>
-                  The designer wants to design a simple retro-style map. The map and the live feed colour and style look more like a "Command Prompt, " making it very cool and unique. 
-                  </li>
-                  <br/>
-                  <li>
-                    The designer improve the the user engagement by displaying the severity level for each attack as remark such as "We'll just call it a glitch," indicating small or minor attacks. In contrast, things like "It's cyber Pompeii!" show significant or widespread attacks.
-                  </li>
-                </Card>
-              </div>
-
-              <div className="site-card-border-less-wrapper">
-                <Card
-                  title="  How (Idiom) - 'How the visualization idioms are constructed'"
-                  style={{width: 810,}}>
-                  <dl>
-                    Expressiveness
-                    <ul>
-                      <li>
-                        The visualisation uses single color to represent the severity of attack from one country to another. 
-                      </li>
-                    </ul>  
-                  </dl>
-                  <dl>
-                    Effectiveness
-                    <ul>
-                      <li>
-                        The country name displayed in live attack details is in abbreviated form rather than the complete form.
-                      </li>
-                      <li>
-                        Tooltips and annotation are present, showing encodings of a specific region of the map. However, the usability of the “hover” status is not consistent as it disappears occasionally.
-                      </li>
-                    </ul>  
-                  </dl>
-                </Card>
-              </div>
             </div>
-            
+            <div className="site-card-border-less-wrapper">
+              <Card
+                title=" Why (Task) - 'User Intent to Use Visualization Tools'"
+                style={{width: 810,}}>
+                <li>
+                The designer wants to design a simple retro-style map. The map and the live feed colour and style look more like a "Command Prompt, " making it very cool and unique. 
+                </li>
+                <br/>
+                <li>
+                  The designer improve the the user engagement by displaying the severity level for each attack as remark such as "We'll just call it a glitch," indicating small or minor attacks. In contrast, things like "It's cyber Pompeii!" show significant or widespread attacks.
+                </li>
+              </Card>
+            </div>
+            <div className="site-card-border-less-wrapper">
+              <Card
+                title="  How (Idiom) - 'How the visualization idioms are constructed'"
+                style={{width: 810,}}>
+                <dl>
+                  Expressiveness
+                  <ul>
+                    <li>
+                      The visualisation uses single color to represent the severity of attack from one country to another. 
+                    </li>
+                  </ul>  
+                </dl>
+                <dl>
+                  Effectiveness
+                  <ul>
+                    <li>
+                      The country name displayed in live attack details is in abbreviated form rather than the complete form.
+                    </li>
+                    <li>
+                      Tooltips and annotation are present, showing encodings of a specific region of the map. However, the usability of the “hover” status is not consistent as it disappears occasionally.
+                    </li>
+                  </ul>  
+                </dl>
+              </Card>
+            </div>
             <div style={divStyle}>
                 <Space direction="horizontal">
                   <Card
@@ -286,7 +283,7 @@ function M1Body() {
                   </Card>
                 </Space>
             </div>
-          </Space>
+            </Space>
           </div>
         </div>
       </PageContainer>
