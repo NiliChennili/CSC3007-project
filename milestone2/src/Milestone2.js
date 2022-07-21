@@ -48,6 +48,7 @@ function Milestone2() {
                   bordered
                   style={{ width: 350, height: 180, color:"white" ,background: "#191932" }}
                   title = "July 2022 Cases"
+                  className="card-cases"
                 
                 >
                   
@@ -64,6 +65,7 @@ function Milestone2() {
                   bordered
                   style={{ width: 350, height: 180,color:"white" ,background: "#191932" }}
                   title = "July 2022 Death"
+                  className="card-death"
                   
                  
                 >
@@ -80,7 +82,7 @@ function Milestone2() {
                   bordered
                   style={{ width: 350, height: 180,color:"white" ,background: "#191932"}}
                   title = "July 2022 Vaccine Doses Administered"
-                  
+                  className="card-vaccine"
                 >
                   
                  
