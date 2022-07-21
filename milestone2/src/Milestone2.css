@@ -1,4 +1,10 @@
-.ant-card-head-title {
+.card1.ant-card-head-title {
+    color: rgb(240 232 232 / 85%);
+}
+.card2.ant-card-head-title {
+    color: rgb(240 232 232 / 85%);
+}
+.card3.ant-card-head-title {
     color: rgb(240 232 232 / 85%);
 }
 .detail-time-graph .ant-card-head-title{
