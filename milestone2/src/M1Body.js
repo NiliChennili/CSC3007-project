@@ -54,6 +54,7 @@ function M1Body() {
                   style={{
                     width: 810,
                   }}
+                  className="cardTitle"
                 >
                     <li>
                       The legend of the chart shows the spike in the number of cases
@@ -76,7 +77,8 @@ function M1Body() {
                 </Card>
                 <Card 
                   title=" Why (Task) - 'User Intent to Use Visualization Tools'"
-                  style={{width: 810,}}>
+                  style={{width: 810,}}
+                  className="cardTitle">
                     <li>The designer opted for a Spiral Chart representation, which is effective for a time-series data for Covid-19 cases.
                     <li>Characteristics include: Trend; Seasonality (Day-to-Day,Period-to-Period)</li>
                     </li>
@@ -96,7 +98,8 @@ function M1Body() {
                 </Card>
                 <Card
                   title="  How (Idiom) - 'How the visualization idioms are constructed'"
-                  style={{width: 810,}} >
+                  style={{width: 810,}} 
+                  className="cardTitle">
                     <dl>
                       Expressiveness
                         <li>
@@ -192,7 +195,8 @@ function M1Body() {
             <div className="site-card-border-less-wrapper">
                 <Card
                   title="  What (Data) - 'What Data the User Sees'"
-                  style={{width: 810,}}>
+                  style={{width: 810,}}
+                  className="cardTitle">
                   <li>
                   The arc line showing in the map only has a red colour, which does not break down the attacks by colour, e.g. red for critical attacks, orange for high severity, blue for medium.
                   </li>
@@ -217,7 +221,8 @@ function M1Body() {
             <div className="site-card-border-less-wrapper">
               <Card
                 title=" Why (Task) - 'User Intent to Use Visualization Tools'"
-                style={{width: 810,}}>
+                style={{width: 810,}}
+                className="cardTitle">
                 <li>
                 The designer wants to design a simple retro-style map. The map and the live feed colour and style look more like a "Command Prompt, " making it very cool and unique. 
                 </li>
@@ -230,7 +235,8 @@ function M1Body() {
             <div className="site-card-border-less-wrapper">
               <Card
                 title="  How (Idiom) - 'How the visualization idioms are constructed'"
-                style={{width: 810,}}>
+                style={{width: 810,}}
+                className="cardTitle">
                 <dl>
                   Expressiveness
                   <ul>
