@@ -8,7 +8,8 @@ import React,{Component} from "react";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Milestone1 from './pages/Milestone1';
-import Milestone2 from './Milestone2';
+// import Milestone2 from './Milestone2';
+import Hexbin from './hexbin';
 import Navbar from './Navbar';
 class App extends Component {
   
@@ -22,7 +23,7 @@ class App extends Component {
         <Routes>
           <Route path="/" element={<Home/>} exact/>
           <Route path='/milestone1' element={<Milestone1/>} />
-          <Route path='/milestone2' element={<Milestone2/>} />
+          <Route path='/hexbin' element={<Hexbin/>} />
           
         </Routes>
       </Router>
