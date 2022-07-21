@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { Layout } from 'antd';
+import React from "react";
 import ProLayout, { PageContainer } from "@ant-design/pro-layout";
 import RcResizeObserver from "rc-resize-observer";
 import { Space, Card } from "antd";
 import Timegraph from './Timegraph';
 import Total_case from './Total_case';
+import Total_death from "./Total_death";
 import "./Milestone2.css";
 
 
@@ -39,15 +39,15 @@ function Milestone2() {
             }}
           >
             <div style={divStyle}>
-              <Space direction="vertical" colSpan="30%">
+              <Space direction="horizontal" colSpan="30%">
               
                 <Card
                   headerBordered
                   hoverable
                   bordered
-                  style={{ width: 300, height: 200, color:"white" ,background: "#191932" }}
-                  title = "28-Day Cases"
-                  
+                  style={{ width: 350, height: 180, color:"white" ,background: "#191932" }}
+                  title = "July 2022 Cases"
+                
                 >
                   
  
@@ -61,8 +61,10 @@ function Milestone2() {
                   headerBordered
                   hoverable
                   bordered
-                  style={{ width: 300, height: 200,color:"white" ,background: "#191932" }}
-                  title = "28-Day Death"
+                  style={{ width: 350, height: 180,color:"white" ,background: "#191932" }}
+                  title = "July 2022 Death"
+                  
+                 
                 >
                   
                  
@@ -75,8 +77,9 @@ function Milestone2() {
                   headerBordered
                   hoverable
                   bordered
-                  style={{ width: 300, height: 200,color:"white" ,background: "#191932"}}
-                  title = "28-Day Vaccine Doses Administered"
+                  style={{ width: 350, height: 180,color:"white" ,background: "#191932"}}
+                  title = "July 2022 Vaccine Doses Administered"
+                  
                 >
                   
                  
@@ -88,33 +91,55 @@ function Milestone2() {
                 
               </Space>
 
-              <Space direction="vertical" colSpan="70%">
+        
+            </div>
+            <div style={divStyle}>
+            <Space direction="vertical" colSpan="70%">
                 <Card
                   headerBordered
                   hoverable
                   bordered
                   title="New Case vs New Death"
-                  style={{ width: 860, height: 500 }}
-                  className="detail-stack-graph"
+                  style={{ width: 1065, height: 500 }}
+                  className="detail-time-graph"
                 >
                   < Timegraph/>
                  
+                </Card>
+              
+              </Space>
+              </div>
+
+
+            <div style={divStyle}>
+            <Space direction="hotizontal">
+
+            <Card
+                  headerBordered
+                  hoverable
+                  bordered
+                  title="Total Case"
+                  style={{ width: 530, height: 500 }}
+                  className="detail-pie-graph"
+                >
+                  <Total_case />
                 </Card>
 
                 <Card
                   headerBordered
                   hoverable
                   bordered
-                  title="Total Case"
-                  style={{ width: 860, height: 500 }}
-                  className="detail-line-graph"
+                  title="Total Death"
+                  style={{ width: 530, height: 500 }}
+                  className="detail-pie-graph"
                 >
-                  <Total_case />
+                  <Total_death />
                 </Card>
 
-               
-              </Space>
-            </div>
+            </Space>
+              
+          
+          </div>
           </div>
         </PageContainer>
       {/* </RcResizeObserver> */}

@@ -3,3 +3,9 @@
     color: rgb(240 232 232 / 85%);
   
 }
+.detail-time-graph .ant-card-head{
+    color: rgba(16, 14, 14, 0.85);
+}
+.detail-pie-graph .ant-card-head{
+    color: rgba(16, 14, 14, 0.85);
+}
