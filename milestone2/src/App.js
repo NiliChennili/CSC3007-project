@@ -2,8 +2,9 @@ import './App.css';
 // import Timegraph from './Timegraph';
 // import Vaccgraph from './Vacc_death_graph';
 import React,{Component} from "react";
-import Timegraph from './Timegraph';
+// import Timegraph from './Timegraph';
 // import Total_case from './Total_case';
+import Milestone2 from './Milestone2';
 
 class App extends Component {
   
@@ -12,7 +13,7 @@ class App extends Component {
 
     return (
       <React.Fragment>
-        <Timegraph/> 
+        <Milestone2/> 
     
       </React.Fragment>
     );
