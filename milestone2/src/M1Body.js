@@ -82,21 +82,9 @@ function M1Body() {
               <div className="site-card-border-less-wrapper">
                 <Card
                   title=" Why (Task) - 'User Intent to Use Visualization Tools'"
-                
-                  style={{
-                    width: 810,
-                  }}
-                >
-                  
-                    <li>
-                      The designer opted for a Spiral Chart representation, which is
-                      effective for a time-series data for Covid-19 cases.
-                    
-                        <li>
-                          Characteristics include: Trend; Seasonality (Day-to-Day,
-                          Period-to-Period)
-                        </li>
-                    
+                  style={{width: 810,}}>
+                    <li>The designer opted for a Spiral Chart representation, which is effective for a time-series data for Covid-19 cases.
+                    <li>Characteristics include: Trend; Seasonality (Day-to-Day,Period-to-Period)</li>
                     </li>
                     <br />
                     <li>
@@ -111,31 +99,22 @@ function M1Body() {
                       to segment parts of the visualisation to provide more
                       information to the audience.
                     </li>
-                
                 </Card>
               </div>
 
               <div className="site-card-border-less-wrapper">
                 <Card
                   title="  How (Idiom) - 'How the visualization idioms are constructed'"
-              
-                  style={{
-                    width: 810,
-                  }}
-                  
-                >
+                  style={{width: 810,}} >
                     <dl>
                       Expressiveness
-                    
                         <li>
                           The visualisation uses a single colour to represent the
                           entire data flow.
                         </li>
-                      
                     </dl>
                     <dl>
                       Effectiveness
-                    
                         <li>
                           The accuracy of how many cases are there in a month is
                           very vague as there is no clear indication of the
@@ -146,11 +125,10 @@ function M1Body() {
                           however it is still difficult on first glance to locate a
                           specific month and year.
                         </li>
-                      
                     </dl>
-                
                 </Card>
               </div>
+
               <div style={divStyle}>
                 <Space direction="horizontal">
                   <Card
@@ -196,22 +174,21 @@ function M1Body() {
                     </ol>
                   </Card>
                 </Space>
-            </div>
+              </div>
 
             {/* start of visualisation #2 */}
-
-            <h2 class="tm-section-title tm-color-primary mb-3">Visualization 2: Internet Hacking Attack Attribution Map</h2>
-            
+            <div style={divStyle}>
+              <h2 class="tm-section-title tm-color-primary mb-3">Visualization 2: Internet Hacking Attack Attribution Map</h2>
+            </div>
             <div style={divStyle}>
               <Space direction="horizontal">
                 <Card
                   style={{ width: 400, height: 400 }}
-                  cover={<img alt="example" src="images/vis2.png"/>}
-                >
+                  cover={<img alt="example" src="images/vis2.png"/>}>
                 </Card>
                 <Card style={{ width: 400, height: 400, background: "red" }}>
                 <li>
-                  This Internet Hacking Attack Attribution tracks cyber attacks in real time, showing the location and IP address of the source and target of each attack. 
+                This Internet Hacking Attack Attribution tracks cyber attacks in real time, showing the location and IP address of the source and target of each attack. 
                 </li>
                 <br/>
                 <li>
@@ -222,38 +199,33 @@ function M1Body() {
               <div className="site-card-border-less-wrapper">
                 <Card
                   title="  What (Data) - 'What Data the User Sees'"
-                  style={{
-                    width: 810,
-                  }}>
+                  style={{width: 810,}}>
                   <li>
-                    The arc line showing in the map only has a red colour, which does not break down the attacks by colour, e.g. red for critical attacks, orange for high severity, blue for medium.
+                  The arc line showing in the map only has a red colour, which does not break down the attacks by colour, e.g. red for critical attacks, orange for high severity, blue for medium.
                   </li>
                   <br/>
                   <li>
-                    No “hover-over” details on the arc line.
+                  No “hover-over” details on the arc line.
                   </li>
                   <br/>
                   <li>
-                    The white circle that allows interactivity for user to hover on and view the tooltip. However, the tooltip has a perceived affordance as it disappears at the slightest move of the cursor.
+                  The white circle that allows interactivity for user to hover on and view the tooltip. However, the tooltip has a perceived affordance as it disappears at the slightest move of the cursor.
                   </li>
                   <br/>
                   <li>
-                    Live attack details like the software is being used to attack with the source, and destination details was shown in a very unclear text format.
+                  Live attack details like the software is being used to attack with the source, and destination details was shown in a very unclear text format.
                   </li>
                   <br/>
                   <li>
-                    Users may see the country name while hovering over it on the map but cannot select it to view more details or zoom in or out on the map.
+                  Users may see the country name while hovering over it on the map but cannot select it to view more details or zoom in or out on the map.
                   </li>
                 </Card>
               </div>
+
               <div className="site-card-border-less-wrapper">
                 <Card
                   title=" Why (Task) - 'User Intent to Use Visualization Tools'"
-                
-                  style={{
-                    width: 810,
-                  }}
-                >
+                  style={{width: 810,}}>
                   <li>
                   The designer wants to design a simple retro-style map. The map and the live feed colour and style look more like a "Command Prompt, " making it very cool and unique. 
                   </li>
@@ -263,13 +235,11 @@ function M1Body() {
                   </li>
                 </Card>
               </div>
+
               <div className="site-card-border-less-wrapper">
                 <Card
                   title="  How (Idiom) - 'How the visualization idioms are constructed'"
-                  style={{
-                    width: 810,
-                  }}
-                >
+                  style={{width: 810,}}>
                   <dl>
                     Expressiveness
                     <ul>
@@ -292,7 +262,7 @@ function M1Body() {
                 </Card>
               </div>
             </div>
-            </Space>
+            
             <div style={divStyle}>
                 <Space direction="horizontal">
                   <Card
@@ -316,8 +286,7 @@ function M1Body() {
                   </Card>
                 </Space>
             </div>
-          
-          
+          </Space>
           </div>
         </div>
       </PageContainer>
