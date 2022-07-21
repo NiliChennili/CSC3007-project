@@ -53,7 +53,7 @@ function Milestone2() {
                 >
                   
  
-                  <p style={{ color: "red", textAlign: "center",fontSize:30}}>
+                  <p style={{ color: "#fb6a4a", textAlign: "center",fontSize:30}}>
                   191455
                   </p>
                 </Card>
@@ -86,7 +86,7 @@ function Milestone2() {
                 >
                   
                  
-                  <p style={{ color: "green", textAlign: "center",fontSize:30}}>
+                  <p style={{ color: "#66c2a4", textAlign: "center",fontSize:30}}>
                   191455
                   </p>
                 </Card>
