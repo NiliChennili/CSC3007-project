@@ -129,11 +129,11 @@ function M1Body() {
               <div style={divStyle}>
                 <Space direction="horizontal">
                   <Card
-                    style={{ width: 400, height: 400 }}
-                    cover={<img alt="example" src="images/vis1-sol.png"/>}
+                    style={{ width: 400, height: 900 }}
+                    cover={<img src="images/vis1-sol.png"/>}
                   >
                   </Card>
-                  <Card style={{ width: 400, height: 400, background: "red" }}>
+                  <Card style={{ width: 400, height: 900, }}>
                     <ol className="list">
                       <li className="item">
                         <h2 className="headline">Solution A</h2>
@@ -186,7 +186,7 @@ function M1Body() {
                   style={{ width: 400, height: 400 }}
                   cover={<img alt="example" src="images/vis2.png"/>}>
                 </Card>
-                <Card style={{ width: 400, height: 400, background: "red" }}>
+                <Card style={{ width: 400, height: 400 }}>
                 <li>
                 This Internet Hacking Attack Attribution tracks cyber attacks in real time, showing the location and IP address of the source and target of each attack. 
                 </li>
@@ -267,7 +267,7 @@ function M1Body() {
                     cover={<img alt="example" src="images/vis2-sol.png"/>}
                   >
                   </Card>
-                  <Card style={{ width: 400, height: 400, background: "red" }}>
+                  <Card style={{ width: 400, height: 400 }}>
                   <li className="item">
                             <h2 className="headline">Solution A</h2><span>Different arc line colours indicate the severity level of the attacks.</span>
                         </li>
