@@ -4,12 +4,13 @@ import './App.css';
 import React,{Component} from "react";
 // import Timegraph from './Timegraph';
 // import Total_case from './Total_case';
-// import Milestone2 from './Milestone2';
+import Milestone2 from './Milestone2';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Milestone1 from './pages/Milestone1';
-// import Milestone2 from './Milestone2';
-import Hexbin from './hexbin';
+
+import Hexbin from './Hexbin';
+// import HexbinHTML from './hexbin.html'
 import Navbar from './Navbar';
 class App extends Component {
   
@@ -23,7 +24,10 @@ class App extends Component {
         <Routes>
           <Route path="/" element={<Home/>} exact/>
           <Route path='/milestone1' element={<Milestone1/>} />
-          <Route path='/hexbin' element={<Hexbin/>} />
+          <Route path='/milestone2' element={<Milestone2/>} />
+          {/* <Route path='/Hexbin' element={<Hexbin/>} /> */}
+          {/* <Route path='/hexbin' element={<HexbinHTML/>} /> */}
+
           
         </Routes>
       </Router>

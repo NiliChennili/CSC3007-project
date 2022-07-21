@@ -6,6 +6,7 @@ import Timegraph from './Timegraph';
 import Total_case from './Total_case';
 import Total_death from "./Total_death";
 import "./Milestone2.css";
+import Hexbin from "./Hexbin";
 
 
 
@@ -93,6 +94,24 @@ function Milestone2() {
 
         
             </div>
+
+            <div style={divStyle}>
+            <Space direction="vertical" colSpan="70%">
+                <Card
+                  headerBordered
+                  hoverable
+                  bordered
+                  title="Hexbin Map"
+                  style={{ width: 1065, height: 550 }}
+                  // className="detail-time-graph"
+                >
+                  < Hexbin/>
+                 
+                </Card>
+              
+              </Space>
+              </div>
+
             <div style={divStyle}>
             <Space direction="vertical" colSpan="70%">
                 <Card
