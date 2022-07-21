@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Milestone1 from './pages/Milestone1';
 import Milestone2 from './pages/Milestone2';
-
+import Navbar from './Navbar';
 class App extends Component {
   
 
