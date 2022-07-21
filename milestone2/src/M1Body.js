@@ -2,7 +2,6 @@ import { click } from "@testing-library/user-event/dist/click";
 import React, { useState } from "react";
 import { Space, Card } from "antd";
 import ProLayout, { PageContainer } from "@ant-design/pro-layout";
-
 import "./M1Body.css";
 
 function M1Body() {
@@ -50,14 +49,12 @@ function M1Body() {
 
           <div style={divStyle}>
             <Space direction="vertical">  
-              <div className="site-card-border-less-wrapper">
                 <Card
                   title="What (Data) - 'What Data the User Sees'"
                   style={{
                     width: 810,
                   }}
                 >
-                  
                     <li>
                       The legend of the chart shows the spike in the number of cases
                       in denominations of 150K but it does not account for other
@@ -77,9 +74,7 @@ function M1Body() {
                     </li>
                 
                 </Card>
-              </div>
-              <div className="site-card-border-less-wrapper">
-                <Card
+                <Card 
                   title=" Why (Task) - 'User Intent to Use Visualization Tools'"
                   style={{width: 810,}}>
                     <li>The designer opted for a Spiral Chart representation, which is effective for a time-series data for Covid-19 cases.
@@ -99,8 +94,6 @@ function M1Body() {
                       information to the audience.
                     </li>
                 </Card>
-              </div>
-              <div className="site-card-border-less-wrapper">
                 <Card
                   title="  How (Idiom) - 'How the visualization idioms are constructed'"
                   style={{width: 810,}} >
@@ -125,7 +118,6 @@ function M1Body() {
                         </li>
                     </dl>
                 </Card>
-              </div>
               <div style={divStyle}>
                 <Space direction="horizontal">
                   <Card
@@ -176,7 +168,7 @@ function M1Body() {
           </div>
 
           {/* start of visualisation #2 */}
-          <h2 class="tm-section-title tm-color-primary mb-3">Visualization 2: Internet Hacking Attack Attribution Map</h2>
+          <h2 style={{textAlign: 'center',} }>Visualization 2: Internet Hacking Attack Attribution Map</h2>
           <div style={divStyle}>
             <Space direction="vertical">
             

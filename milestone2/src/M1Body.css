@@ -1,6 +1,6 @@
 .ant-card-head-title {
-
-    color: rgba(10, 9, 9, 0.85);
-  
+    color: rgba(0, 0, 0, 0.85);
 }
-
+.ant-card-head{
+    background-color: #89c6c3;
+}
