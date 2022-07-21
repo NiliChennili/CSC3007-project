@@ -1,10 +1,10 @@
-.card1.ant-card-head-title {
+.card-cases .ant-card-head-title {
     color: rgb(240 232 232 / 85%);
 }
-.card2.ant-card-head-title {
+.card-death .ant-card-head-title {
     color: rgb(240 232 232 / 85%);
 }
-.card3.ant-card-head-title {
+.card-vaccine .ant-card-head-title {
     color: rgb(240 232 232 / 85%);
 }
 .detail-time-graph .ant-card-head-title{
