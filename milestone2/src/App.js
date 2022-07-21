@@ -4,7 +4,11 @@ import './App.css';
 import React,{Component} from "react";
 // import Timegraph from './Timegraph';
 // import Total_case from './Total_case';
-import Milestone2 from './Milestone2';
+// import Milestone2 from './Milestone2';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Milestone1 from './pages/Milestone1';
+import Milestone2 from './pages/Milestone2';
 
 class App extends Component {
   
@@ -12,10 +16,17 @@ class App extends Component {
   render() {
 
     return (
-      <React.Fragment>
-        <Milestone2/> 
-    
-      </React.Fragment>
+      <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home/>} exact/>
+          <Route path='/milestone1' element={<Milestone1/>} />
+          <Route path='/milestone2' element={<Milestone2/>} />
+          
+        </Routes>
+      </Router>
+      </>
     );
   }
 }

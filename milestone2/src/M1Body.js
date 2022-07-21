@@ -2,7 +2,8 @@
 
 import { click } from '@testing-library/user-event/dist/click';
 import React, { useState } from 'react';
-import { Col, Row, List, Card , Space } from 'antd';
+import { Space, Card } from "antd";
+import ProLayout, { PageContainer } from "@ant-design/pro-layout";
 
 import './M1Body.css';
 import { Content } from 'antd/lib/layout/layout';
@@ -20,6 +21,12 @@ function M1Body() {
 
     return (
     <>  
+    <PageContainer>
+    <div
+            style={{
+              height: "120vh",
+            }}
+          >
     <div style={divStyle}>
        <Space direction="horizontal" >
 
@@ -38,12 +45,14 @@ function M1Body() {
        
        </Space>
                 
-    </div>                     
+    </div>   
+    </div>
+    </PageContainer>
+                      
         
             
             
-            {/* </Col> */}
-             
+     
     </>
   );
 }
