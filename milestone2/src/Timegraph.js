@@ -10,7 +10,7 @@ const Timegraph = () => {
     }, []);
   
     const getData = () => {
-      fetch("../Dataset/us_covid_data.json", {
+      fetch("../Dataset/timegraph_data.json", {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
@@ -26,28 +26,30 @@ const Timegraph = () => {
         });
     };
  
-  const config = {
-    data: [data,data],
-    xField: 'date', //Can modify to years with 12 months for data ?? 
-    yField: ['total_case', 'total_deaths'],
-    // limitInPlot: false,
-    padding: [10, 20, 80, 30],
-    // 需要设置底部 padding 值，同 css
-    slider: {},
-    meta: {
-      time: {
-        sync: true, // 开启之后 slider 无法重绘
+    const config = {
+      data: [data, data],
+      xField: 'time',
+      yField: ['newCase', 'newDeath'],
+      limitInPlot: false,
+      padding: [10, 20, 80, 30],
+      // 需要设置底部 padding 值，同 css
+      slider: {},
+      meta: {
+        time: {
+          sync: false, // 开启之后 slider 无法重绘
+        },
       },
-    },
-    geometryOptions: [
-      {
-        geometry: 'column',
-      },
-      {
-        geometry: 'line',
-      },
-    ],
+      geometryOptions: [
+        {
+          geometry: 'column',
+        },
+        {
+          geometry: 'line',
+        },
+      ],
+    };
+    return <DualAxes {...config} />;
   };
-  return <DualAxes {...config} />;
-};
+  
+
 export default Timegraph;

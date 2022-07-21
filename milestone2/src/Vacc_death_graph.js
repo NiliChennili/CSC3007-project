@@ -5,11 +5,11 @@ const Vacc_death_graph = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    asyncFetch();
+    getData();
   }, []);
 
   const getData = () => {
-    fetch("../Dataset/vacc_sample.json", {
+    fetch("../Dataset/us_covid_monthly_data.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -26,8 +26,8 @@ const Vacc_death_graph = () => {
   };
   const config = {
     data,
-    xField: 'date',
-    yField: 'gdp',
+    xField: 'total_cases',
+    yField: 'total_death',
     seriesField: 'date',
     yAxis: {
       label: {
@@ -50,4 +50,4 @@ const Vacc_death_graph = () => {
   return <Line {...config} />;
 };
 
-ReactDOM.render(<DemoLine />, document.getElementById('container'));
+export default Vacc_death_graph;
