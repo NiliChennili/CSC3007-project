@@ -125,7 +125,7 @@ function M1Body() {
                 <Space direction="horizontal">
                   <Card
                     style={{ width: 400, height: 900 }}
-                    cover={<img src="images/vis1-sol.png"/>}
+                    cover={<img src="./images/vis1-sol.png"/>}
                   >
                   </Card>
                   <Card style={{ width: 400, height: 900, }}>
@@ -179,7 +179,7 @@ function M1Body() {
               <Space direction="horizontal">
                 <Card
                   style={{ width: 400, height: 400 }}
-                  cover={<img alt="example" src="images/vis2.png"/>}>
+                  cover={<img alt="example" src="./images/vis2.png"/>}>
                 </Card>
                 <Card style={{ width: 400, height: 400 }}>
                 <li>
@@ -262,7 +262,7 @@ function M1Body() {
                 <Space direction="horizontal">
                   <Card
                     style={{ width: 400, height: 400 }}
-                    cover={<img alt="example" src="images/vis2-sol.png"/>}
+                    cover={<img alt="example" src="./images/vis2-sol.png"/>}
                   >
                   </Card>
                   <Card style={{ width: 400, height: 400 }}>
