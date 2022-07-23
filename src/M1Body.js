@@ -22,7 +22,7 @@ function M1Body() {
             <Space direction="horizontal">
               <Card
                 style={{ width: 400, height: 400}}
-                cover={<img alt="example" src="images/vis-spiral.png" />}
+                cover={<img alt="example" src="./images/vis-spiral.png" />}
               >
               </Card>
               <Card style={{ width: 400, height: 400 }}>

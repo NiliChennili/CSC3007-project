@@ -10,7 +10,7 @@ const Total_case = () => {
     }, []);
   
     const getData = () => {
-      fetch("../Dataset/total_case.json", {
+      fetch("./Dataset/total_case.json", {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",

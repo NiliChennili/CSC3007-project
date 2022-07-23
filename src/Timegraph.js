@@ -10,7 +10,7 @@ const Timegraph = () => {
     }, []);
   
     const getData = () => {
-      fetch("../Dataset/timegraph_data.json", {
+      fetch("./Dataset/timegraph_data.json", {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",

@@ -10,7 +10,7 @@ const Total_death = () => {
     }, []);
   
     const getData = () => {
-      fetch("../Dataset/total_death.json", {
+      fetch("./Dataset/total_death.json", {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
