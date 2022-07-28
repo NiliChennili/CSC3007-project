@@ -1,0 +1,27 @@
+.card-cases .ant-card-head-title {
+    color: rgb(251, 245, 245);
+    font-weight: bolder;
+    
+}
+/* .card-cases .ant-card{
+box-shadow: 5px 10px #b04343;
+} */
+.card-death .ant-card-head-title {
+    color:  rgb(251, 245, 245);
+    font-weight: bolder;
+}
+.card-vaccine .ant-card-head-title {
+    color:  rgb(251, 245, 245);
+    font-weight: bolder;
+}
+.detail-time-graph .ant-card-head-title{
+    color: rgba(16, 14, 14, 0.85);
+}
+.detail-pie-graph .ant-card-head-title{
+    color: rgba(16, 14, 14, 0.85);
+}
+
+.ant-card{
+    border-radius: 1em;
+    /* border: 1px solid; */
+}
