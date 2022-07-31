@@ -2,7 +2,7 @@
   "name": "milestone2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NiliChennili.github.io/",
+  "homepage": "http://NiliChennili.github.io/CSC3007-project/",
   "dependencies": {
     "@ant-design/charts": "^1.4.1",
     "@ant-design/dark-theme": "^2.0.2",
@@ -15,6 +15,7 @@
     "@turf/transform-translate": "^6.5.0",
     "@turf/turf": "^6.5.0",
     "antd": "^4.21.7",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.0.1",
@@ -47,8 +48,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
