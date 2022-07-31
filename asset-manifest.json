@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/CSC3007-project/static/css/main.a7311199.css",
+    "main.js": "/CSC3007-project/static/js/main.311a56fc.js",
+    "static/js/787.90401e3a.chunk.js": "/CSC3007-project/static/js/787.90401e3a.chunk.js",
+    "static/media/video-1.mp4": "/CSC3007-project/static/media/video-1.59e75226d30ad48f9ede.mp4",
+    "static/media/vis2-sol.png": "/CSC3007-project/static/media/vis2-sol.884fb11831261967ee98.png",
+    "static/media/vis2.png": "/CSC3007-project/static/media/vis2.3c4a3761a5ea94aab4de.png",
+    "static/media/vis-spiral.png": "/CSC3007-project/static/media/vis-spiral.a8aa3f5726ff7e111d37.png",
+    "static/media/vis1-sol.png": "/CSC3007-project/static/media/vis1-sol.5970668893410ae14d4d.png",
+    "static/media/hexbin-img.png": "/CSC3007-project/static/media/hexbin-img.fbd2c453a44469b51665.png",
+    "static/media/index.less": "/CSC3007-project/static/media/index.512735b3dccd7d4b3088.less",
+    "index.html": "/CSC3007-project/index.html",
+    "static/media/GridContent.less": "/CSC3007-project/static/media/GridContent.96954e72cf09e0d8aadc.less",
+    "static/media/default.less": "/CSC3007-project/static/media/default.003f90b383291c3b90da.less",
+    "main.a7311199.css.map": "/CSC3007-project/static/css/main.a7311199.css.map",
+    "main.311a56fc.js.map": "/CSC3007-project/static/js/main.311a56fc.js.map",
+    "787.90401e3a.chunk.js.map": "/CSC3007-project/static/js/787.90401e3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7311199.css",
+    "static/js/main.311a56fc.js"
+  ]
+}

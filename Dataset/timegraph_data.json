@@ -1,0 +1,158 @@
+[
+  {
+    "time": "2020-01-31",
+    "newCase": 2,
+    "newDeath": 0
+  },
+  {
+    "time": "2020-02-29",
+    "newCase": 8,
+    "newDeath": 1
+  },
+  {
+    "time": "2020-03-31",
+    "newCase": 26381,
+    "newDeath": 1079
+  },
+  {
+    "time": "2020-04-30",
+    "newCase": 29702,
+    "newDeath": 2191
+  },
+  {
+    "time": "2020-05-31",
+    "newCase": 18919,
+    "newDeath": 621
+  },
+  {
+    "time": "2020-06-30",
+    "newCase": 49825,
+    "newDeath": 554
+  },
+  {
+    "time": "2020-07-31",
+    "newCase": 64576,
+    "newDeath": 1185
+  },
+  {
+    "time": "2020-08-31",
+    "newCase": 33362,
+    "newDeath": 482
+  },
+  {
+    "time": "2020-09-30",
+    "newCase": 38632,
+    "newDeath": 906
+  },
+  {
+    "time": "2020-10-31",
+    "newCase": 87343,
+    "newDeath": 921
+  },
+  {
+    "time": "2020-11-30",
+    "newCase": 154913,
+    "newDeath": 1313
+  },
+  {
+    "time": "2020-12-31",
+    "newCase": 154913,
+    "newDeath": 3291
+  },
+  {
+    "time": "2021-01-31",
+    "newCase": 112858,
+    "newDeath": 1949
+  },
+  {
+    "time": "2021-02-29",
+    "newCase": 51764,
+    "newDeath": 1090
+  },
+  {
+    "time": "2021-03-31",
+    "newCase": 69530,
+    "newDeath": 1068
+  },
+  {
+    "time": "2021-04-30",
+    "newCase": 58102,
+    "newDeath": 804
+  },
+  {
+    "time": "2021-05-31",
+    "newCase": 6274,
+    "newDeath": 172
+  },
+  {
+    "time": "2021-06-30",
+    "newCase": 15352,
+    "newDeath": 303
+  },
+  {
+    "time": "2021-07-31",
+    "newCase": 43891,
+    "newDeath": 168
+  },
+  {
+    "time": "2021-08-31",
+    "newCase": 179960,
+    "newDeath": 1440
+  },
+  {
+    "time": "2021-09-30",
+    "newCase": 110385,
+    "newDeath": 2814
+  },
+  {
+    "time": "2021-10-31",
+    "newCase": 32324,
+    "newDeath": 234
+  },
+  {
+    "time": "2021-11-30",
+    "newCase": 117108,
+    "newDeath": 1652
+  },
+  {
+    "time": "2021-12-31",
+    "newCase": 513628,
+    "newDeath": 734
+  },
+  {
+    "time": "2022-01-31",
+    "newCase": 543484,
+    "newDeath": 2623
+  },
+  {
+    "time": "2022-02-29",
+    "newCase": 98913,
+    "newDeath":2152
+  },
+  {
+    "time": "2022-03-31",
+    "newCase": 45668,
+    "newDeath": 521
+  },
+  {
+    "time": "2022-04-30",
+    "newCase": 24010,
+    "newDeath": 115
+  },
+  {
+    "time": "2022-05-31",
+    "newCase": 170577,
+    "newDeath": 353
+  },
+  {
+    "time": "2022-06-30",
+    "newCase": 166527,
+    "newDeath": 0
+  },
+  {
+    "time": "2022-07-31",
+    "newCase": 191455,
+    "newDeath": 532
+  }
+  
+]

@@ -1,0 +1,206 @@
+{
+  "pie": [
+    {
+      "area": "2020",
+      "name": "US",
+      "bill": 818749
+  
+    },
+    {
+      "area": "2021",
+      "name": "US",
+      "bill": 1311176
+   
+    },
+    {
+      "area": "2022",
+      "name": "US",
+      "bill": 1287338
+    
+    }
+  ],
+    "line": [
+      {
+        "time": "Jan",
+        "area": "2020",
+        "value": 2
+      },
+      {
+        "time": "Jan",
+        "area": "2021",
+        "value": 112858
+      },
+      {
+        "time": "Jan",
+        "area": "2022",
+        "value": 543484
+      },
+      {
+        "time": "Feb",
+        "area": "2022",
+        "value": 98913
+      },
+      {
+        "time": "Feb",
+        "area": "2020",
+        "value": 8
+      },
+      {
+        "time": "Feb",
+        "area": "2021",
+        "value": 51764
+      },
+      {
+        "time": "March",
+        "area": "2022",
+        "value": 45668
+      },
+      {
+        "time": "March",
+        "area": "2020",
+        "value": 45668
+      },
+      {
+        "time": "March",
+        "area": "2021",
+        "value": 69530
+      },
+      {
+        "time": "April",
+        "area": "2022",
+        "value": 24010
+      },
+      {
+        "time": "April",
+        "area": "2020",
+        "value": 24010
+      },
+      {
+        "time": "April",
+        "area": "2021",
+        "value": 58102
+      },
+      {
+        "time": "May",
+        "area": "2020",
+        "value": 18919
+      },
+      {
+        "time": "May",
+        "area": "2021",
+        "value": 6274
+      },
+      {
+        "time": "May",
+        "area": "2022",
+        "value": 170577
+      },
+      {
+        "time": "June",
+        "area": "2020",
+        "value": 64576
+      },
+      {
+        "time": "June",
+        "area": "2021",
+        "value": 15352
+      },
+      {
+        "time": "June",
+        "area": "2022",
+        "value": 166527
+      },
+      {
+        "time": "July",
+        "area": "2020",
+        "value": 191455
+      },
+      {
+        "time": "July",
+        "area": "2021",
+        "value": 43891
+      },
+      {
+        "time": "July",
+        "area": "2022",
+        "value": 272273
+      },
+      {
+        "time": "Aug",
+        "area": "2020",
+        "value": 38632
+      },
+      {
+        "time": "Aug",
+        "area": "2021",
+        "value": 179960
+      },
+      {
+        "time": "Aug",
+        "area": "2022",
+        "value": 0
+      },
+      {
+        "time": "Sep",
+        "area": "2020",
+        "value": 60343
+      },
+      {
+        "time": "Sep",
+        "area": "2021",
+        "value": 110385
+      },
+      {
+        "time": "Sep",
+        "area": "2022",
+        "value": 0
+      },
+
+      {
+        "time": "Oct",
+        "area": "2020",
+        "value": 87343
+      },
+      {
+        "time": "Oct",
+        "area": "2021",
+        "value": 32324
+      },
+      {
+        "time": "Oct",
+        "area": "2022",
+        "value": 0
+      
+      },
+      {
+        "time": "Nov",
+        "area": "2020",
+        "value": 154913
+      },
+      {
+        "time": "Nov",
+        "area": "2021",
+        "value": 117108
+      },
+      {
+        "time": "Nov",
+        "area": "2022",
+        "value": 0
+      },
+      {
+        "time": "Dec",
+        "area": "2020",
+        "value": 315086
+      },
+      {
+        "time": "Dec",
+        "area": "2021",
+        "value": 513628
+      },
+      {
+        "time": "Dec",
+        "area": "2022",
+        "value": 0
+      }
+    ]
+  }
